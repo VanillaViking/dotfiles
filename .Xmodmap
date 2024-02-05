@@ -1,0 +1,3 @@
+clear lock
+keycode 9 = asciitilde grave asciitilde grave
+keycode 66 = Escape

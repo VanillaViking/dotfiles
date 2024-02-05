@@ -1,0 +1,5 @@
+auto-reload yes
+include /usr/share/doc/newsboat/contrib/colorschemes/inkpot
+browser firefox
+macro y set browser "yt-dlp -P /mnt/hdd/youtube/ %u" ; open-in-browser ; set browser "firefox %u"
+macro a set browser "yt-dlp -x -P /mnt/hdd/youtube/ %u" ; open-in-browser ; set browser "firefox %u"

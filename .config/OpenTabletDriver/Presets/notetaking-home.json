@@ -1,0 +1,189 @@
+{
+  "Profiles": [
+    {
+      "Tablet": "Wacom CTL-4100",
+      "OutputMode": {
+        "Path": "OpenTabletDriver.Desktop.Output.LinuxArtistMode",
+        "Settings": [],
+        "Enable": true
+      },
+      "Filters": [],
+      "AbsoluteModeSettings": {
+        "Display": {
+          "Width": 3440.0,
+          "Height": 1440.0,
+          "X": 3640.0,
+          "Y": 720.0,
+          "Rotation": 0.0
+        },
+        "Tablet": {
+          "Width": 152.0,
+          "Height": 63.627907,
+          "X": 76.0,
+          "Y": 47.5,
+          "Rotation": 0.0
+        },
+        "EnableClipping": true,
+        "EnableAreaLimiting": false,
+        "LockAspectRatio": true
+      },
+      "RelativeModeSettings": {
+        "XSensitivity": 10.0,
+        "YSensitivity": 10.0,
+        "RelativeRotation": 0.0,
+        "RelativeResetDelay": "00:00:00.1000000"
+      },
+      "Bindings": {
+        "TipActivationThreshold": 0.0,
+        "TipButton": {
+          "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+          "Settings": [
+            {
+              "Property": "Button",
+              "Value": "Left"
+            }
+          ],
+          "Enable": true
+        },
+        "EraserActivationThreshold": 0.0,
+        "EraserButton": null,
+        "PenButtons": [
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Shift+P"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Shift+A"
+              }
+            ],
+            "Enable": true
+          }
+        ],
+        "AuxButtons": [
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Shift+R"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+D7"
+              }
+            ],
+            "Enable": true
+          },
+          null,
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Shift+E"
+              }
+            ],
+            "Enable": true
+          }
+        ],
+        "MouseButtons": [],
+        "MouseScrollUp": null,
+        "MouseScrollDown": null
+      }
+    },
+    {
+      "Tablet": "Wacom CTL-472",
+      "OutputMode": {
+        "Path": "OpenTabletDriver.Desktop.Output.LinuxArtistMode",
+        "Settings": [],
+        "Enable": true
+      },
+      "Filters": [],
+      "AbsoluteModeSettings": {
+        "Display": {
+          "Width": 1920.0,
+          "Height": 1080.0,
+          "X": 960.0,
+          "Y": 540.0,
+          "Rotation": 0.0
+        },
+        "Tablet": {
+          "Width": 152.0,
+          "Height": 95.0,
+          "X": 76.0,
+          "Y": 47.5,
+          "Rotation": 0.0
+        },
+        "EnableClipping": true,
+        "EnableAreaLimiting": false,
+        "LockAspectRatio": false
+      },
+      "RelativeModeSettings": {
+        "XSensitivity": 10.0,
+        "YSensitivity": 10.0,
+        "RelativeRotation": 0.0,
+        "RelativeResetDelay": "00:00:00.1000000"
+      },
+      "Bindings": {
+        "TipActivationThreshold": 0.0,
+        "TipButton": {
+          "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+          "Settings": [
+            {
+              "Property": "Button",
+              "Value": "Left"
+            }
+          ],
+          "Enable": true
+        },
+        "EraserActivationThreshold": 0.0,
+        "EraserButton": null,
+        "PenButtons": [
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Shift+P"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Shift+A"
+              }
+            ],
+            "Enable": true
+          }
+        ],
+        "AuxButtons": [],
+        "MouseButtons": [],
+        "MouseScrollUp": null,
+        "MouseScrollDown": null
+      }
+    }
+  ],
+  "LockUsableAreaDisplay": true,
+  "LockUsableAreaTablet": true,
+  "Tools": []
+}
