@@ -123,10 +123,6 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 
 export BOT_DIR=~/projects/Zyenyo
-export BOT_TOKEN="MTAwNTc4Mzk5NTA3OTk5OTQ5OA.GmBuMS.QXUcj1ZET-ipMcAiXhGafC95qvc6HKofxwALho"
-export MONGO_URI="mongodb+srv://ashwinr2k2:ubi7gsta9b@cluster0.qsxprhr.mongodb.net/MyDatabase?retryWrites=true&w=majority"
-export ZYENYO_ENVIRONMENT="development"
-
 
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
