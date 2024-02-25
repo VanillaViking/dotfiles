@@ -61,6 +61,8 @@ set background=dark
 :nnoremap <leader>e3 :vsplit ~/.config/i3/config<cr>
 :nnoremap <leader>en :vsplit ~/notes/index.md<cr>
 
+set conceallevel=2
+
 set formatoptions-=cro 
 
 nnoremap S :%s//g<Left><Left>
@@ -450,7 +452,7 @@ require("obsidian").setup({
 
   daily_notes = {
     -- Optional, if you keep daily notes in a separate directory.
-    -- folder = "notes/dailies",
+    folder = "notes/",
     -- Optional, if you want to change the date format for the ID of daily notes.
     date_format = "%Y-%m-%d",
     -- Optional, if you want to change the date format of the default alias of daily notes.
@@ -480,6 +482,7 @@ require("obsidian").setup({
     -- Toggle check-boxes.
     ["<leader>ch"] = {
       action = function()
+	vim.cmd.normal(vim.api.nvim_replace_termcodes("$F(df)", true, true, true))
         return require("obsidian").util.toggle_checkbox()
       end,
       opts = { buffer = true },
@@ -565,14 +568,6 @@ require("obsidian").setup({
   end,
 
   -- Optional, for templates (see below).
-  templates = {
-    subdir = "templates",
-    date_format = "%Y-%m-%d",
-    time_format = "%H:%M",
-    -- A map for custom variables, the key should be the variable and the value a function
-    substitutions = {},
-  },
-
   -- Optional, by default when you use `:ObsidianFollowLink` on a link to an external
   -- URL it will be ignored but you can customize this behavior here.
   ---@param url string
