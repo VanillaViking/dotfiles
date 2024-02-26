@@ -108,6 +108,8 @@ nmap <leader>z yy:!nohup zathura '<C-r>"' &<CR>
 
 nmap <leader>os :ObsidianSearch<CR>
 
+autocmd FileType markdown CocDisable
+
 autocmd BufWritePost *.typ :!typst compile %
 
 noremap <C-k> <C-w><C-k>

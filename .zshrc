@@ -129,3 +129,5 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 
 export PATH=/home/vanilla/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/home/vanilla/.dotnet/tools:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin:/home/vanilla/Android/Sdk/emulator:/home/vanilla/Android/Sdk/platform-tools:/home/vanilla/Android/Sdk/emulator:/home/vanilla/Android/Sdk/platform-tools
+
+if [ -e /home/vanilla/.nix-profile/etc/profile.d/nix.sh ]; then . /home/vanilla/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
