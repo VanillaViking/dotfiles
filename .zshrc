@@ -82,7 +82,7 @@ alias fp='_fpush() { tailscale file cp $1 samsung-sm-s918b: ;}; _fpush'
 alias mp='_mpush() { cp audio.mp3 $1 ; tailscale file cp $1 samsung-sm-s918b: ; rm $1}; _mpush'
 
 
-alias e="neovide"
+alias e="nix run github:VanillaViking/nix-vim-config"
 alias d="git checkout develop"
 alias pl="git pull"
 alias p="~/.scripts/push.sh"
